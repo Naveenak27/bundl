@@ -1,0 +1,517 @@
+.bundl-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 6% 0 0% 0; */
+    text-align: center;
+}
+
+.bundl-detail h2 {
+    color: #000000;
+    font-weight: 700;
+}
+
+.bundl-amount {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bundl-amount p {
+    color: #1BA56F;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bundl-desc-title {
+    color: #000000;
+    font-weight: 700;
+    text-align: center;
+}
+
+.bundl-desc {
+    font-size: 18px;
+    text-align: center;
+    color: #000000;
+    font-weight: 400;
+    width: 43%;
+    margin: auto;
+    /* text-align: justify; */
+}
+
+.one-minor {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.bundl-section {
+    display: flex;
+    width: 100%;
+}
+
+.brand-details {
+    width: 70%;
+    padding: 2% 6%;
+    border-right: 1px solid #000000;
+    text-align: left;
+}
+body[dir="rtl"] .brand-details {
+    width: 70%;
+    padding: 2% 6%;
+    border-left: 1px solid #000000;
+    border-right: 0;
+    text-align: left;
+}
+
+.brand-input {
+    width: 100%;
+    height: 45px;
+    padding: 1% 2%;
+    outline: none;
+    border: 1px solid #000000;
+    border-radius: 0px;
+}
+.brand-input:focus {
+    width: 100%;
+    height: 45px;
+    padding: 1% 2%;
+    outline: none;
+}
+.bundl-summary {
+    width: 30%;
+    padding: 2% 0%;
+    text-align: left;
+}
+
+.brand-identity {
+    text-align: left;
+}
+
+.logo-design {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.languages {
+    width: 50%;
+}
+
+/* .languages p {
+    margin: 0 0 0 15%;
+} */
+
+.commerce-collateral {
+    text-align: left;
+    margin: 0 0 8% 0;
+}
+
+.collateral-text {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.commerce-sections {
+    display: flex;
+    border-bottom: 1px solid #000000;
+    width: 100%;
+    /* padding: auto 0 0 0; */
+}
+.commerce-sections1{
+    display: flex;
+    width: 100%;
+    padding: 2% 0 0 0;
+}
+
+.commerce-sections p {
+    font-size: 18px;
+    font-weight: 700;
+}
+.commerce-sections1 p {
+    font-size: 18px;
+    font-weight: 700;
+}
+.minimum {
+    font-size: 20px;
+    color: #1BA56F;
+    font-weight: 500;
+    width: 50%;
+}
+
+.quantity {
+    display: flex;
+    border: 1px solid #000000;
+    height: 35px;
+}
+
+.quantity button {
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    width: 38px;
+    /* height: 35px; */
+    text-align: center;
+    /* border-bottom: 1px solid #000000; */
+    background-color: transparent;
+}
+
+.input-box {
+    width: 38px;
+    height: 34px;
+    text-align: center;
+    padding: 8px 0px;
+    font-size: 16px;
+    outline: none;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-top: 0;
+}
+
+.input-box::-webkit-inner-spin-button,
+.input-box::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.tab-buttons {
+    width: 100%;
+    display: flex;
+}
+
+.tab-buttons .accordian-button {
+    width: 250px;
+    height: 40px;
+    outline: none;
+    background-color: transparent;
+}
+
+.tab-buttons .active-button {
+    background-color: #1BA56F;
+    color: #FFFFFF;
+    outline: none;
+    width: 250px;
+    height: 40px;
+}
+
+.dropdowns {
+    height: inherit;
+}
+
+.menu {
+    display: none;
+    /* margin: -5% 0 0 0; */
+}
+
+.bundl-name {
+    padding: 0 2%;
+}
+
+.one-heading {
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid grey;
+    padding: 1% 5%;
+}
+
+.one-brand-identity {
+    padding: 1% 5%;
+    color: #1BA56F;
+    font-size: 20px;
+    font-weight: 700;
+    /* border-bottom: 1px solid #00000080; */
+}
+
+.bundl-checkout {
+    padding: 1% 5%;
+}
+/* 
+.total p {
+    font-size: 20px;
+    font-weight: 400;
+} */
+
+.proceed {
+    height: 50px;
+    width: 450px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    border: 0;
+}
+
+.proceed-checkout {
+    padding: 2% 5%;
+}
+
+.proceed-text {
+    font-size: 15px;
+    font-weight: 500;
+    color: #F175AD;
+    margin: 5% 0 0 0;
+    text-align: center;
+}
+
+/* .css-1808mag-MuiPaper-root-MuiAccordion-root {
+    box-shadow: none !important;
+    border-bottom: 1px solid #000000;
+}
+
+.css-1808mag-MuiPaper-root-MuiAccordion-root::before {
+    background-color: transparent !important;
+} */
+
+.bundl-accordian {
+    margin: 0 0 5% 0;
+}
+
+.accordian-heading {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width:1705px) and (min-width:1024px) {
+
+    .brand-details{
+        padding: 2% 6%;
+    }
+    .languages {
+        width: 55%;
+    }
+
+    .languages p {
+        margin: 0 0 0 2%;
+    }
+
+    .commerce-sections p {
+        font-size: 18px;
+    }
+    .commerce-sections1 p {
+        font-size: 18px;
+    }
+    .tab-buttons .accordian-button {
+        font-size: 14px;
+    }
+
+    .tab-buttons .active-button {
+        font-size: 14px;
+    }
+
+    .proceed {
+        width: 330px;
+    }
+    .proceed-checkout {
+        padding: 2% 1%;
+    }
+    .bundl-desc {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .bundl-desc {
+        width: 79%;
+    }
+
+    .proceed {
+        width: 250px;
+    }
+
+    .brand-input {
+        width: 600px;
+        height: 35px;
+    }
+
+    .commerce-sections p {
+        font-size: 16px;
+    }
+    .commerce-sections1 p {
+        font-size: 16px;
+    }
+    .languages p {
+        margin: 0 0 0 6%;
+    }
+
+    .tab-buttons .accordian-button {
+        font-size: 13px;
+    }
+
+    .tab-buttons .active-button {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width:768px) and (min-width:441px) {
+
+    .menu {
+        display: flex;
+    }
+    .bundl-section {
+        flex-direction: column;
+    }
+
+    .brand-details {
+        width: 100%;
+        border-right: 0;
+    }
+    body[dir="rtl"]  .brand-details {
+        width: 100%;
+        border-right: 0;
+    }
+    .bundl-summary {
+        width: 100%;
+    }
+
+    .proceed {
+        width: 650px;
+    }
+
+
+    .languages {
+        width: 55%;
+    }
+
+    /* .languages p {
+        margin: 0 0 0 8%;
+    } */
+}
+
+@media screen and (max-width:441px) {
+    .bundl-accordian {
+        margin: 0 0 55% 0;
+    }
+    .collateral-text {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .navIcons{
+        width: 24px;
+    }
+    .menu {
+        display: flex;
+    }
+    .bundl-section {
+        flex-direction: column;
+    }
+    .brand-details {
+        width: 100%;
+        border-right: 0;
+    }
+    body[dir="rtl"] .brand-details {
+        width: 100%;
+        border-right: 0;
+    }
+    .bundl-summary {
+        position:fixed;
+        background-color: #FFFFFF;
+        bottom: 0;
+        width: 100%;
+        /* height: 100%; */
+        
+    }
+    .brand-input {
+        height: 45px;
+    }
+    .proceed-checkout {
+        padding: 2% 0%;
+    }
+    .proceed-text {
+        margin: 0%;
+    }
+    .bundl-desc{
+        width: 90%;
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 1% 1%;
+    }
+    .commerce-sections1{
+        padding: 5% 0 0 0;
+    }
+    .one-minor{
+
+        font-size: 16px;
+    }
+    .languages{
+        width: 100%;
+    }
+    /* .languages p{
+        margin: 0 0 0 2%;
+    } */
+    /* .commerce-sections,.commerce-sections1{
+        display: block;
+    } */
+    .quantity{
+        width: 115px;
+    }
+    .commerce-sections p {
+        font-size: 20px;
+    }
+    .commerce-sections1 p {
+        font-size: 20px;
+    }
+    .accordian-heading{
+        font-size: 20px;
+    }
+    .tab-buttons{
+        flex-wrap: wrap;
+    }
+    .tab-buttons .accordian-button {
+        font-size: 16px;
+     }
+     .tab-buttons .active-button{
+        font-size: 16px;
+    }
+    .accordion-btn-1 {
+        width: 40% !important;
+    }
+    .accordion-btn-2 {
+        width: 60% !important;
+    }
+    .accordion-btn-3 {
+        width: 50% !important;
+    }
+    .accordion-btn-4 {
+        width: 50% !important;
+    }
+    .accordion-btn-5 {
+        width: 40% !important;
+    }
+    .accordion-btn-6 {
+        width: 60% !important;
+    }
+    .accordion-btn-7 {
+        width: 100% !important;
+    }
+    .proceed{
+        width: 350px;
+    }
+    .bundl-checkout {
+        padding: 1% 5%;
+        margin: 5% 0 0 0;
+    }
+}
+
+@media screen and (max-width:375px) {
+  .proceed{
+    width: 300px;
+  }
+  .menu {
+    display: flex;
+}
+.accordian-heading{
+    font-size: 20px;
+}
+.collateral-text {
+    font-size: 20px;
+    font-weight: 700;
+}
+.bundl-accordian {
+    margin: 0 0 60% 0;
+}
+}
